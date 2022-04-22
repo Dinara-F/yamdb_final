@@ -15,7 +15,7 @@ jobs:
 
     - name: Install dependencies
       with:
-        path: "./api_yamdb/requirements.txt"
+        context: ./api_yamdb/
       run: | 
         python -m pip install --upgrade pip 
         pip install flake8 pep8-naming flake8-broken-line flake8-return flake8-isort
