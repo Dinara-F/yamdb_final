@@ -1,9 +1,9 @@
 from datetime import date
-from django.db import models
+
 from django.contrib.auth.models import AbstractUser
 from django.core.exceptions import ValidationError
 from django.core.validators import MaxValueValidator, MinValueValidator
-
+from django.db import models
 
 YEAR_VALIDATION_ERROR = 'Год выпуска не может быть больше текущего.'
 
