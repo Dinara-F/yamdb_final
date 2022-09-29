@@ -34,13 +34,13 @@ docker-compose up -d
 
 ### Loading data into the database through Django ORM
 
-category.csv
-comments.csv
-genre_title.csv
-genre.csv
-review.csv
-titles.csv
-users.csv
+- category.csv
+- comments.csv
+- genre_title.csv
+- genre.csv
+- review.csv
+- titles.csv
+- users.csv
 
 Loading data:
 
